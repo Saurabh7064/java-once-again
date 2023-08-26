@@ -39,7 +39,7 @@ public class Lambdas {
     }
     return result;
   }
-
+//(Apple a) -> a.getColor() == Color.GREEN
   interface ApplePredicate {
 
     boolean test(Apple a);
